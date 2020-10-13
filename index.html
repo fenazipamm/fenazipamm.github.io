@@ -1,11 +1,278 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="vendor/bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen'>
 </head>
 <body>
-    <h1>Hello</h1>
+    <header>
+        <nav class="navbar navbar-dark fixed-top navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand" href="#body"><img src="img/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="promoBlock">
+        <div class="promo-block-text">
+            <h1 class="promo-block-heading">Digital Product Agency.</h1>
+            <p class="promo-block-subheading">Look no further. You came to the right ... place</p>
+        </div>
+        <button class="promo-block-button" id="promoVideoOpen"><i class="icon-control-play"></i>watch intro video </button>
+    </section>
+    <section id="products">
+        <div class="container">
+            <div class="row text-center  justify-content-center">
+                <div class="col-sm-6">
+                    <h2>Latest Products</h2>
+                    <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div>
+                        <img class="img-fluid" src="img/970x647/01.jpg" alt="Latest Products Image" >
+                    </div>
+                    <h4><a href="#">Workspace</a> <span class="text-uppercase">Management</span></h4>
+                    <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                    <a class="link" href="#">Read More</a>
+                </div>
+                <div class="col-sm-4">
+                    <div >
+                        <img class="img-fluid" src="img/970x647/02.jpg" alt="Latest Products Image">
+                    </div>
+                    <h4><a href="#">Minimalism</a> <span class="text-uppercase">Developmeny</span></h4>
+                    <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                    <a class="link" href="#">Read More</a>
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <img class="img-fluid" src="img/970x647/03.jpg" alt="Latest Products Image">
+                    </div>
+                    <h4><a href="#">Cleant Style</a> <span class="text-uppercase">Design</span></h4>
+                    <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                    <a class="link" href="#">Read More</a>
+                </div>
+            </section>
+            <div class="container-fluid p-0">
+                <div class="row no-gutters">
+                    <div class="col-6">
+                        <img class="img-fluid images" src="img/970x647/01.jpg" alt="image">
+                    </div>
+                    <div class="col-6">
+                        <img class="img-fluid images" src="img/970x647/03.jpg" alt="image">
+                    </div>
+                </div>
+            </div> 
+            <section class="service">
+                <div class="container">
+                    <div class="row no-gutters">
+                        <div class="col-4">
+                            <div class="service-block">
+                                <div class="service-block-icon"><i class="icon-chemistry"></i></div>
+                                <div class="service-block-heading">Art Of Coding</div>
+                                <div class="service-block-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, laudantium.</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="service-block active">
+                                <div class="service-block-icon"><i class="icon-screen-tablet"></i></div>
+                                <div class="service-block-heading">Responsive Design</div>
+                                <div class="service-block-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, non?</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="service-block">
+                                <div class="service-block-icon"><i class="icon-badge"></i></div>
+                                <div class="service-block-heading">Feature Reach</div>
+                                <div class="service-block-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, in?</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="service-block">
+                                <div class="service-block-icon"><i class="icon-notebook"></i></div>
+                                <div class="service-block-heading">Useful Documantation</div>
+                                <div class="service-block-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quisquam.</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="service-block">
+                                <div class="service-block-icon"><i class="icon-speedometer"></i></div>
+                                <div class="service-block-heading">Fast Delivery</div>
+                                <div class="service-block-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, ipsum.</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="service-block">
+                                <div class="service-block-icon"><i class="icon-badge"></i></div>
+                                <div class="service-block-heading">Free Plugins</div>
+                                <div class="service-block-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="promo-banner">
+                <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-9">
+                        <h2 class="promo-banner-heading">Displaying the Result</h2>
+                        <p class="promo-banner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <section class="blocks">
+                <div class="container">
+                    <div class="grid">
+                        <div class="block1 gallery-img"></div> <div class="gallery-modal" id="block1Modal"><div class="gallery-modal-content"></div></div>
+                        <div class="block2 gallery-img"></div> <div class="gallery-modal" id="block2Modal"><div class="gallery-modal-content"></div></div>
+                        <div class="block3 gallery-img"></div> <div class="gallery-modal" id="block3Modal"><div class="gallery-modal-content"></div></div>
+                        <div class="block4 gallery-img"></div> <div class="gallery-modal" id="block4Modal"><div class="gallery-modal-content"></div></div>
+                        <div class="block5 gallery-img"></div> <div class="gallery-modal" id="block5Modal"><div class="gallery-modal-content"></div></div>
+                    </div>
+                </div>
+            </section>
+            <section class="pricing">
+                <div class="container p-0">
+                    <div class="row no-gutters">
+                        <div class="col-4">
+                            <div class="pricing-block">
+                                <div class="pricing-block-icon"><i class="icon-chemistry"></i></div>
+                                <h2 class="pricing-block-heading">Starter Kit <span style="color: #bfc1c7; font-size: 14px; font-weight: 400;">- $</span> 49</h2>
+                                <p class="pricing-block-text">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                <ul class="pricing-block-list">
+                                    <li class="pricing-block-feature">Basic Features</li>
+                                    <li class="pricing-block-feature">Up to 5 products</li>
+                                    <li class="pricing-block-feature">50 Users Panels</li>
+                                </ul>
+                                <button class="pricing-block-ditails">choose</button>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="pricing-block active">
+                                <div class="pricing-block-icon"><i class="icon-badge"></i></div>
+                                <h2 class="pricing-block-heading">Professional <span style="color: #bfc1c7; font-size: 14px; font-weight: 400;">- $</span> 149</h2>
+                                <p class="pricing-block-text">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                <ul class="pricing-block-list">
+                                    <li class="pricing-block-feature">Basic Features</li>
+                                    <li class="pricing-block-feature">Up to 100 products</li>
+                                    <li class="pricing-block-feature">100 Users Panels</li>
+                                </ul>
+                                <button class="pricing-block-ditails">choose</button>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="pricing-block">
+                                <div class="pricing-block-icon"><i class="icon-shield"></i></div>
+                                <h2 class="pricing-block-heading">Advanced <span style="color: #bfc1c7; font-size: 14px; font-weight: 400;">- $</span> 249</h2>
+                                <p class="pricing-block-text">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                <ul class="pricing-block-list">
+                                    <li class="pricing-block-feature">Extended Features</li>
+                                    <li class="pricing-block-feature">Unlimited products</li>
+                                    <li class="pricing-block-feature">Unlimited Users Panels</li>
+                                </ul>
+                                <button class="pricing-block-ditails">choose</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="reviews">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-10">
+                            <h2 class="reviews-heading">Customer Reviews</h2>
+                            <blockquote>
+                                <p class="reviews-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, commodi provident aspernatur, optio voluptatibus perspiciatis quam consectetur delectus eius ad cupiditate, recusandae minima. Neque, distinctio. Dicta excepturi nihil unde veritatis.</p>
+                                <p class="reviews-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, voluptatibus.</p>
+                                <p class="reviwes-autor">Alex Clarson <span style="color: #a6a7aa;">, Metronic Customer</span></p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="map">
+                <div class="container"></div>
+                <p class="adress">277 Bedford Avenue, Brooklyn, NY 11211, New York, USA</p>
+            </section>
+            <!--========== FOOTER ==========-->
+            <section>
+                <nav class="footer">
+                    <!-- Links -->
+            <div class="section-seperator">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <!-- List -->
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item"><a class="list-item"href="#">Home</a></li>
+                                <li class="footer-list-item"><a class="list-item" href="#">About</a></li>
+                                <li class="footer-list-item"><a class="list-item" href="#">Work</a></li>
+                                <li class="footer-list-item"><a class="list-item" href="#">Contact</a></li>
+                            </ul>
+                            <!-- End List -->
+                        </div>
+                        <div class="col-sm-2">
+                            <!-- List -->
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item"><a class="list-item" href="#">Twitter</a></li>
+                                <li class="footer-list-item"><a class="list-item" href="#">Facebook</a></li>
+                                <li class="footer-list-item"><a class="list-item" href="#">Instagram</a></li>
+                                <li class="footer-list-item"><a class="list-item" href="#">YouTube</a></li>
+                            </ul>
+                            <!-- End List -->
+                        </div>
+                        <div class="col-sm-3">
+                            <!-- List -->
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item"><a class="list-item" href="#">Subscribe to Our Newsletter</a></li>
+                                <li class="footer-list-item"><a class="list-item" href="#">Privacy Policy</a></li>
+                                <li class="footer-list-item"><a class="list-item" href="#">Terms &amp; Conditions</a></li>
+                            </ul>
+                </nav>
+            </section>
+            <!-- JS -->
+            <!-- VIDEO -->
+            <div class="modal-wrapper" id="promoVideo">
+                <div class="modal-content">
+                    <div class="modal-close" id="promoVideoClose">&times;</div>
+                </div>
+            </div>
+
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="vendor/bootstrap-4.5.0-dist/js/bootstrap.js"></script>
 </body>
 </html>
